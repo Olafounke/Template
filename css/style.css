@@ -1,12 +1,78 @@
-.head{
+#flex{
     display: grid;
-    width: 540px;
-    grid-template-columns: 120px 120px 120px;
-    align-items: start;
+    width: 1000px;
+    grid-template-columns: 280px 280px 280px 280px;
+    align-items: center;
     justify-content: space-between;
+    gap: 10px 2em;
 }
  
-img{
-    width: 120px;
-    height: 120px;
+.images img{
+    width: 250px;
+    height: 300px;
+}
+
+ul { 
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 30px;
+}
+
+.menu{
+    width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.num {
+    display: grid;
+    grid-template-columns: 10px 20px 20px 20px 20px 10px;
+    align-content: center;
+    justify-content:space-around;
+    gap: 10px;
+
+}
+.blog{
+    display: grid;
+    grid-template-columns: 60px 200px ;
+    align-content: start;
+}
+.blog img{
+    width: 50px;
+    height: 40px;
+}
+.form{
+    border: 1px;
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.tag{
+    display: grid;
+    grid-template-columns: 60px 100px 60px 60px 60px 60px;
+    gap: 5px 0.25em;
+    
+}
+.tags{
+    border: 1px;
+    background-color: gray;
+}
+
+.travel{
+    background-color: black;
+    color: white;
 }
